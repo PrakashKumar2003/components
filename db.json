@@ -1,0 +1,113 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "category": "lesers",
+        "manufacturer": {
+          "name": "LASERWORLD",
+          "logo": "/image/products/productLogo.jpg"
+        },
+        "images": [
+          "/image/products/image1.jpg",
+          "/image/products/image2.jpg",
+          "/image/products/image3.jpg",
+          "/image/products/image4.jpg",
+          "/image/products/image5.jpg",
+          "/image/products/image6.jpg",
+          "/image/products/image7.jpg",
+          "/image/products/image8.jpg",
+          "/image/products/image9.jpg",
+          "/image/products/image10.jpg"
+        ],
+        "like": true,
+        "thumbnailImage": "/image/products/productImg.jpg",
+        "label": "Featured",
+        "series": "DIODE",
+        "name": "Diode Series DS-1000RGB mk4 (ShowNET)",
+        "price": "$965",
+        "rating": "4",
+        "oldPrice": "456.45",
+        "caption": "Laser light beam array with 6 single whitelight RGB beam outlets with XY scan set and a guaranteed RGB power of 1.8W at aperture.",
+        "insidePackage": [
+          "Power Cable",
+          "Manual",
+          "2x Keys( for keu switch )",
+          "Iida interlock",
+          "Connector"
+        ],
+        "subtitle": "Optional Upgrades Available",
+        "otherDetails": {
+          "power": "1.8",
+          "colorOutput": "Full",
+          "scannerSpeed": "45Kpps@8",
+          "scanAngle": "45",
+          "beamRelativeBrightness@25ft": "197.96",
+          "manufacturerStatedMaxPower": "21W",
+          "modulePower": {
+            "red": [
+              { "color": "#FF0000", "value": "5.5W" }
+            ],
+            "green": [
+              { "color": "#00FF00", "value": "8W" }
+            ],
+            "blue": [
+              { "color": "#0000FF", "value": "6W" },
+              { "color": "#0000FF", "value": "4W" }
+            ]
+          },
+          "wavelength": {
+            "red": [
+              { "color": "#FF0000", "value": "638nm" }
+            ],
+            "green": [
+              { "color": "#00FF00", "value": "530nm" }
+            ],
+            "blue": [
+              { "color": "#0000FF", "value": "450nm" },
+              { "color": "#0000FF", "value": "462nm" }
+            ]
+          },
+          "beamDivergence": {
+            "red": [
+              { "color": "#FF0000", "value": "1.0mrad" }
+            ],
+            "green": [
+              { "color": "#00FF00", "value": "1.0mrad" }
+            ],
+            "blue": [
+              { "color": "#0000FF", "value": "1.0mrad" },
+              { "color": "#0000FF", "value": "1.0mrad" }
+            ]
+          },
+          "beamDiameter": "4mm"
+        },
+        "reviews": [
+          {
+            "rating": "5",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat",
+            "media": [
+              {
+                "type": "image",
+                "link": "/image/products/review1.jpg"
+              },
+              {
+                "type": "image",
+                "link": "/image/products/review2.jpg"
+              }
+            ],
+            "userName": "John Doe",
+            "date": "2024-07-01"
+          },
+          {
+            "rating": "5",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat",
+            "media": [],
+            "userName": "Jane Smith",
+            "date": "2024-06-28"
+          }
+        ],
+        "available": true
+      }
+    ]
+  }
+  
