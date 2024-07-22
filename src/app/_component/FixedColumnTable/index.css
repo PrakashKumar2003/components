@@ -1,0 +1,19 @@
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table-responsive .fixed-column {
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    left: 0;
+ 
+  } 
+  
+  .table-responsive thead .fixed-column {
+    z-index: 2;
+  }
+  .table-border-separate {
+    border-collapse: separate !important;
+    border-spacing: 0; /* Optional: Adjust the spacing between borders */
+  }
+  
