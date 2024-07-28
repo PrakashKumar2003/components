@@ -9,6 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import FixedColumnTable from "./_component/FixedColumnTable";
 import BarGraph from "./_component/BarGraph";
 import LineGraph from "./_component/LineGraph";
+import Table from "./_component/Table/Tables";
+import CommanSlider from "./_component/CommanSlider";
 const multiProductData = {
   chartID: "powerMulti_669cc35903331",
   products: ["Piko RGB 30 OPSL", "Piko RGB 28 mk2", "Piko RYGB 31 OPSL", "Piko RGB 26 OPSL", "Piko RGB 22 OPSL", "Piko RGB 20"],
@@ -50,12 +52,12 @@ const multiProductData1 = [
 ];
 
 export default function Home() {
-  return < div style={{backgroundColor:"#000"}}>
-    <div className="row row-cols-2">
+  return < div className="text-white" style={{backgroundColor:"#000"}}>
+    {/* <div className="row row-cols-2">
 
       <BarGraph chartData={singleProductData} />
       <BarGraph chartData={multiProductData} />
-    </div>
+    </div> */}
    {/* <h1>Laser Power Chart - Multi Product</h1> */}
       {/* <h1>Laser Power Chart - Single Product</h1> */}
       {/* <h1>Laser Intensity Over Distance</h1>
@@ -63,6 +65,7 @@ export default function Home() {
       <LineGraph dataParams={singleProductData1} />
       <h2>Multiple Products</h2>
       <LineGraph dataParams={multiProductData1} /> */}
-     
+     {/* <Table/> */}
+     <CommanSlider/>
   </div>
 }
