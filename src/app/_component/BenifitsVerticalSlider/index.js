@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Row, Col } from "react-bootstrap";
-const CommanSlider = ({settings,children}) => {
+const BenifitVerticalSlider = () => {
   const startY = useRef();
   const [navSlider, setnavSlider] = useState(null);
   let navSliderRef = useRef();
@@ -61,12 +61,22 @@ const CommanSlider = ({settings,children}) => {
     };
   }, [navSlider, handleSwipeMove]);
 
- 
+  const navSliderSettings = {
+    slidesToShow: 1.5,
+    slidesToScroll: 1,
+    vertical: true,
+    swipe:false,
+    arrows: false,
+    verticalSwiping: true,
+  };
+
   return (
-        <Slider {...settings} ref={(slider) => (navSliderRef = slider)}>
-         {children}
+        <Slider {...navSliderSettings} ref={(slider) => (navSliderRef = slider)}>
+          {[1, 2, 3, 4, 5].map((item, index) => (
+            <div className="swiper">our comman slider ${index}</div>
+          ))}
         </Slider>
   );
 };
 
-export default CommanSlider;
+export default BenifitVerticalSlider;

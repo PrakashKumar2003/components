@@ -1,0 +1,32 @@
+.benefit-vertical-slider {
+  border-inline-start: 1px solid transparent;
+  border-image: linear-gradient(
+      180deg,
+      rgba(0, 184, 107, 0) 0%,
+      #00b86b 50%,
+      rgba(0, 184, 107, 0) 100%
+    )
+    1;
+  .slick-list {
+    margin-inline-end: -12px !important;
+
+    @media (min-width: 768px) {
+      margin-inline-end: -48px !important;
+    }
+    padding-top: 4px !important;
+  }
+  .slick-slide {
+    display: flex;
+    align-items: center;
+    min-height: 360px !important;
+    filter: blur(1px) !important;
+    @media (min-width: 576px) {
+      min-height: 263px !important;
+    }
+  }
+  .slick-current {
+    border-block-start: 1px solid #00b86b;
+    border-block-end: 1px solid #00b86b;
+    filter: none !important;
+  }
+}
